@@ -17,8 +17,8 @@ Los tipos de referencia de C# se dividen en tipos de clase, tipos de interfaz, t
 https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/reference-types
 ![Screenshot](Screenshots/referencetypes.png)
 
-El caso del tipo string es particular, ya que es un tipo por referencia, pero se comporta como un tipo por valor. 
-Esto se debe a que .Net lo define como inmutables, es decir, una vez creado el objeto, no se puede cambiar de ninguna manera.
+**El caso del tipo string es particular, ya que es un tipo por referencia, pero se comporta como un tipo por valor. 
+Esto se debe a que .Net lo define como inmutables, es decir, una vez creado el objeto, no se puede cambiar de ninguna manera.**
 
 ## Resultado
 ![Screenshot](Screenshots/result.png)

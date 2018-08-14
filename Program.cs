@@ -6,6 +6,7 @@ namespace DataTypes
     {
         public static void Main(string[] args)
         {
+            // Comparamos un tipo int
             int int1 = 99;
             int int2 = int1;
             var tipo = int1.GetType().IsValueType ? "VALOR" : "REFERENCIA";
@@ -13,6 +14,7 @@ namespace DataTypes
             SetValuesHelper.SetValuesInt(int1, int2);
             Console.WriteLine($"Resultado Final:\nint1 = {int1};\nint2 = {int2};");
 
+            // Comparamos un tipo string
             string string1 = "99";
             string string2 = string1;
             tipo = string1.GetType().IsValueType ? "VALOR" : "REFERENCIA";
@@ -20,6 +22,7 @@ namespace DataTypes
             SetValuesHelper.SetValuesString(string1, string2);
             Console.WriteLine($"Resultado Final:\nstring1 = {string1};\nstring2 = {string2};");
 
+            // Comparamos un tipo User
             User user1 = new User { Id = "1", Name = "Juan" };
             User user2 = user1;
             tipo = user1.GetType().IsValueType ? "VALOR" : "REFERENCIA";
