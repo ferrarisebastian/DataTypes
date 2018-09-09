@@ -19,7 +19,7 @@ https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/value
 ***Tipos por referencia:*** son tipos que almacenan referencias a los datos, lo que se conoce como objetos. Con los tipos de referencia, es posible que dos variables hagan referencia al mismo objeto y que, por tanto, las operaciones en una variable afecten al objeto al que hace referencia la otra variable. 
 Los tipos de referencia de C# se dividen en tipos de clase, tipos de interfaz, tipos de matriz y tipos delegados.
 
-Estos Tipo de datos se guardan en memoria en un espacio llamado HEAP o MONTON:es una zona de memoria reservada para poder asignarla de manera dinámica. Al contrario que en la pila no existen “normas” para poder asignar o desasignar información en el montón, pudiendo almacenar y eliminar datos en cualquier momento, lo cual hace más complicada la gestión de la memoria en esta ubicación.
+Estos Tipo de datos se guardan en memoria en un espacio llamado HEAP o MONTON: es una zona de memoria reservada para poder asignarla de manera dinámica. Al contrario que en la pila no existen “normas” para poder asignar o desasignar información en el montón, pudiendo almacenar y eliminar datos en cualquier momento, lo cual hace más complicada la gestión de la memoria en esta ubicación.
 
 ![Screenshot](Screenshots/monton.png)
 
@@ -43,3 +43,10 @@ Comparamos un tipo string
 Comparamos un tipo User
 ### Resultado
 ![Screenshot](Screenshots/user.png)
+
+## Testeado
+- Visual Studio 2017
+
+- .Net Core 2.x
+
+- C# 7.x
